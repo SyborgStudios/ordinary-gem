@@ -1,0 +1,11 @@
+module OrdinaryGem
+  class ATypicalClass
+    def self.a_simple_singleton_method
+      "This is the implementation of a simple singleton method of version #{OrdinaryGem::VERSION}}"
+    end
+
+    def a_simple_instance_method
+      "This is the implementation of a simple instance method of version #{OrdinaryGem::VERSION}}"
+    end
+  end
+end
