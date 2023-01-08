@@ -11,12 +11,7 @@ module OrdinaryGem
 
     def a_instance_method_that_will_change
       "This is the implementation of a simple instance method."
-      "This method will be rewritten in the next version."
-    end
-
-    def a_instance_method_that_will_be_removed
-      "This is the implementation of a simple instance method."
-      "This method will be removed in the next version."
+      "This method has been rewritten in this next version."
     end
     
     def self.a_singleton_method_that_we_do_not_override
@@ -30,12 +25,7 @@ module OrdinaryGem
 
     def self.a_singleton_method_that_will_change
       "This is the implementation of a simple singleton method."
-      "This method will be rewritten in the next version."
-    end
-
-    def self.a_singleton_method_that_will_be_removed
-      "This is the implementation of a simple singleton method."
-      "This method will be removed in the next version."
+      "This method has been rewritten in this next version."
     end
   end
 end
